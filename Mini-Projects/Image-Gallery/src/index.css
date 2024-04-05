@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.Container{
+  width:100vw;
+  height:100vh;
+  transition-duration:200ms;
+}
+.btn-container{
+  position:fixed;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  bottom:3rem;
+  left:0px;
+  right:0px;
+  padding:0px 0.5rem;
+}
+.inner-btn-container{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  background-color:white;
+  gap:0.75rem;
+  padding:0.5rem 0.75rem;
+  border-radius:1.5rem;
+}
+.btn{
+  color:white;
+  outline:2px solid transparent;
+  outline-offset:2px;
+  padding:0.25rem 1rem;
+  border-radius:9999px;
+}
